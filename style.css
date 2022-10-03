@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-image: url(starter-code/assets/image-hero-desktop.png);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: right 5px top 10px; */
+  align-items: center;
+  justify-content: center;
+}
+html {
+  font-family: sans-serif;
+}
+.div {
+  display: Flex;
+}
+.img {
+  transform: translate(30%, -30%);
+}
+.container {
+  width: 80%;
+  display: Flex;
+  flex-direction: Column;
+  justify-content: center;
+  margin: auto;
+}
+/* .top {
+  display: flex;
+  /* background-color: blue; 
+}*/
+
+/* .bottom {
+  display: Flex;
+} */
+.header {
+  display: flex;
+
+  padding-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.description {
+  width: 33%;
+  margin-top: 80px;
+}
+.description h1 {
+  font-size: 56px;
+  padding-bottom: 20px;
+  width: 457px;
+  margin-top: 60px;
+}
+.description p {
+  font-size: 18px;
+  color: #83869a;
+  line-height: 28px;
+  letter-spacing: 1.2;
+  padding-bottom: 5px;
+  width: 380px;
+
+  margin-top: 10px;
+}
+.top {
+  display: Flex;
+  flex-direction: column;
+  /* min-height: 50vh; */
+}
+
+/* .bottom-top {
+  display: Flex;
+  /* justify-content: center;
+  align-items: center; }*/
+
+/* .bottom-bottom {
+  display: flex;
+  /* justify-content: center;
+  align-items: center;} */
+#offer {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 15px;
+  width: 33%;
+}
+#offer p {
+  font-size: 32px;
+
+  width: 70%;
+  margin-top: 60px;
+  margin-left: 35px;
+  color: #fff;
+  font-weight: 800;
+  min-height: 322px;
+}
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* padding: 30px 0; */
+  background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+
+  /* grid-template-columns: repeat(3, 350px);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  background-color: blueviolet; */
+  row-gap: 50px;
+  column-gap: 10px;
+}
+/* sworad mivutite min-height? */
+.bottom > div {
+  width: 31%;
+  min-height: 322px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.offer-name {
+  font-size: 24px;
+  margin: 32px 0;
+  font-weight: 800;
+  margin-left: 20px;
+}
+.offer-description {
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 270px;
+  line-height: 28px;
+  color: #83869a;
+  margin-bottom: 24px;
+  margin-left: 20px;
+}
+/* ekranis zois cvlilebazstan ertad zevit adis */
+.button-position {
+  background-color: black;
+  padding-bottom: 30px;
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+  margin-top: -20px;
+  margin-left: 16px;
+}
+.bottom > div > button {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  border-style: none;
+  background: none;
+  color: #f74780;
+}
+.bottom > div > button:hover {
+  color: #ffa7c3;
+}
+.header-btn {
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+  background-color: #13183f;
+  padding: 10px;
+  border-radius: 28px;
+}
+.header-btn:hover {
+  background-color: #666ca3;
+}
+.starter-btn {
+  font-size: 18px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  color: #fff;
+  border-style: none;
+  padding: 8px;
+  border-radius: 28px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+header > p {
+  font-size: 22px;
+  font-weight: 800;
+}
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #13183f;
+}
+footer > p {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+}
+.footer-btn {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  background: linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+  border-style: none;
+  border-radius: 28px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+/* .offer {
+  width: 350px;
+  height: 320px;
+} */
